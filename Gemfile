@@ -13,6 +13,7 @@ gem 'angular-rails-templates'
 gem 'sprockets', '2.12.3'
 gem 'responders'
 gem 'angular_rails_csrf'
+gem 'devise'
 
 
 group :development, :test do

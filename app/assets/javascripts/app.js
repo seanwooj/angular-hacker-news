@@ -1,4 +1,4 @@
-window.flapperNews = angular.module('flapperNews', ['ui.router', 'templates'])
+window.flapperNews = angular.module('flapperNews', ['ui.router', 'templates', 'Devise'])
   .config([
     '$stateProvider','$urlRouterProvider',
     function ($stateProvider, $urlRouterProvider) {
